@@ -10,9 +10,8 @@ confinement: strict # use 'strict' once you have the right plugs and slots
 parts:
   hello-rust:
     # See 'snapcraft plugins'
-    plugin: rust
+    plugin: x-rust
     source: .
-    build-packages: [build-essential, curl, file, git]
 apps:
   hello:
     command: hello
