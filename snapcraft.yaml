@@ -12,7 +12,7 @@ parts:
     # See 'snapcraft plugins'
     plugin: rust
     source: .
-    build-packages: [build-essential, git]
+    build-packages: [build-essential, curl, file, git]
 apps:
   hello:
     command: hello
