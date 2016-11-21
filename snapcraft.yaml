@@ -13,5 +13,5 @@ parts:
     plugin: x-rust
     source: .
 apps:
-  hello:
+  rust-hello:
     command: hello
